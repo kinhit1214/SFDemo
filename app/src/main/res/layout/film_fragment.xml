@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.view.FilmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/image_account"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_account"
+            android:text="Name Film"
+            android:textSize="42sp"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="year"
+                android:textSize="25sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="janr"
+                android:textSize="25sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opisanie"
+            android:textSize="32sp"
+            android:text="opisanie"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/history_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="actors"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_account"
+            android:textSize="32sp"
+            android:text="directer"
+            android:layout_margin="10dp"/>
+
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:id="@+id/video_view"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.view.AccountFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image_account"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_account"
+        android:text="Name"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/isbren_video"
+        android:textSize="32sp"
+        android:text="isbren_video"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_video"
+        android:textSize="32sp"
+        android:text="history_video"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_account"
+        android:textSize="32sp"
+        android:text="setting_account"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/help_account"
+        android:textSize="32sp"
+        android:text="help"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/out_account"
+        android:textSize="32sp"
+        android:text="out_account"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
